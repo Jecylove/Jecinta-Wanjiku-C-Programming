@@ -11,18 +11,15 @@
   cin >> age;
   
   while( age != -2) {
+    totalAge = totalAge + age;
+    numberOfPeopleEntered++;
   
-  	
-  
-   totalAge = totalAge + age;
-   numberOfPeopleEntered ++;
-  
-  	cout << "Enter the age of a person or -2 to quit" << endl;	
-  	cin >> age;
+  	 cout << "Enter the age of a person or -2 to quit" << endl;	
+  	 cin >> age;
   
   }	
   
-  cout << "The number of people entered "<< numberOfPeopleEntered << endl;
+  cout << "The number of people entered " << numberOfPeopleEntered << endl;
   cout << "The average age " << totalAge/numberOfPeopleEntered << endl;
   
   return 0;
