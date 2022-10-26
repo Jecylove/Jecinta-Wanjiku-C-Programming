@@ -5,10 +5,10 @@
  	 int i = 1, sum = 0 , num;
      //int num;
   
-     cout << "enter num "<< endl;
+     cout << "enter num" << endl;
      cin >> num;
   
-     for(i=1; i <= num; i++){
+     for (i=1; i <= num; i++) {
      	 cout << i << endl;
          sum += i;
      }
